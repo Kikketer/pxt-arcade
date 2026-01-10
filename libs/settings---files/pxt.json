@@ -1,3 +1,13 @@
 {
+    "name": "settings---files",
+    "description": "Settings storage in files",
+    "dependencies": {
+        "core": "file:../core"
+    },
+    "files": [
+        "settings.cpp",
+        "settings.ts"
+    ],
+    "public": true,
     "additionalFilePath": "../../node_modules/pxt-common-packages/libs/settings---files"
 }

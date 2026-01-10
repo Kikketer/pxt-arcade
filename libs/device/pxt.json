@@ -1,6 +1,9 @@
 {
     "name": "device",
     "description": "The fantasy game console library",
+    "dependencies": {
+        "hw": "file:../hw"
+    },
     "files": [
         "README.md",
         "ns.ts",
@@ -37,10 +40,8 @@
         "startup.ts",
         "pxtsnippets.json"
     ],
+    "public": true,
     "core": true,
-    "dependencies": {
-        "hw": "file:../hw"
-    },
     "palette": [
         "#000000",
         "#ffffff",
@@ -62,6 +63,5 @@
     "screenSize": {
         "width": 160,
         "height": 120
-    },
-    "public": true
+    }
 }
